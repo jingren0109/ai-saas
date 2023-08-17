@@ -4,7 +4,6 @@ import { Configuration, OpenAIApi } from "openai";
 
 import { checkSubscription } from "@/lib/subscription";
 import { increaseApiLimit, checkApiLimit } from "@/lib/api-limit";
-import { inc } from "semver";
 
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
