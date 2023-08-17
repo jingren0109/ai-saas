@@ -16,7 +16,7 @@ import {
   MessageSquare,
   Music,
   VideoIcon,
-} from "lucide-react/dist/esm/lucide-react";
+} from "lucide-react";
 import { useProModal } from "@/hooks/use-pro-modal";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";

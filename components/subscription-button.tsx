@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import { Button } from "./ui/button";
-import { Zap } from "lucide-react/dist/esm/lucide-react";
+import { Zap } from "lucide-react";
 import { useState } from "react";
 
 interface SubscriptionButtonProps {

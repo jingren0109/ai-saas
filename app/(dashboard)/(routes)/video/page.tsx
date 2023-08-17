@@ -5,7 +5,7 @@ import * as z from "zod";
 import { Heading } from "@/components/heading";
 import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-import { Video } from "lucide-react/dist/esm/lucide-react";
+import { Video } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 

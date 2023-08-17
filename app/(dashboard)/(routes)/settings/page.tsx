@@ -1,7 +1,7 @@
 import { Heading } from "@/components/heading";
 import { SubscriptionButton } from "@/components/subscription-button";
 import { checkSubscription } from "@/lib/subscription";
-import { Settings } from "lucide-react/dist/esm/lucide-react";
+import { Settings } from "lucide-react";
 
 const SettingsPage = async () => {
   const isPro = await checkSubscription();

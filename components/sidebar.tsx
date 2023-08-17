@@ -13,7 +13,7 @@ import {
   Music,
   Code,
   Settings,
-} from "lucide-react/dist/esm/lucide-react";
+} from "lucide-react";
 import { usePathname } from "next/navigation";
 import { FreeCounter } from "@/components/free-counter";
 

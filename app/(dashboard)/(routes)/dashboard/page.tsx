@@ -1,15 +1,9 @@
 "use client";
 
-import { ArrowRight } from "lucide-react/dist/esm/lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import {
-  Code,
-  ImageIcon,
-  MessageSquare,
-  Music,
-  VideoIcon,
-} from "lucide-react/dist/esm/lucide-react";
+import { Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const tools = [
